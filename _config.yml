@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Zhelin Yu/ CV"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Zhelin Yu"
 description              : &description "personal description"
 url                      : https://zhezhe55555.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "zhelinyu@std.uestc.edu.cn"
   generatedFields:
     date:
       type               : "date"
@@ -83,7 +83,7 @@ author:
   name             : "Zhelin Yu"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "China"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
